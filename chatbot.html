@@ -8,5 +8,12 @@
     <input type="text" id="user-input" placeholder="ask a question about airplanes">
     <button id="send-btn">Send</button>
     <p id="respnse"></p>
+    <script></script>
+    const userInput = document.getElementById("user-input");
+    const sendBtn = document.getElementById("send-btn");
+    const response = document.getElementById("response");
+
+    sendBtn.addEventListener("click", function() {
+    const message = userInput.value.trim().toLowercase();
   </body>
 </html>
