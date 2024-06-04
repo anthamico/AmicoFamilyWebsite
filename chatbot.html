@@ -19,8 +19,12 @@
     let reply;
     if (message.includes("what is the biggest plane")) {
     reply = "The an-225 is the biggest plane ever made.";
+    } else if (message.includes("what was the first plane to use fly by wire")) {
+      reply = "The f-16 fighting falcon was the first plane to use fly by wire";
+    } else {
+      reply = "I do not understand.";
     }
-    response.textContent = reply;
+      response.textContent = reply;
     });
     </script>
   </body>
