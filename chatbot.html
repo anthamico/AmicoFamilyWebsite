@@ -13,19 +13,19 @@
     const sendBtn = document.getElementById("send-btn");
     const response = document.getElementById("response");
 
-    sendBtn.addEventListener("click", function() {
-    const message = userInput.value.trim().toLowercase();
-    userInput.value"";
-    let reply;
-    if (message.includes("what is the biggest plane")) {
-    reply = "The an-225 is the biggest plane ever made.";
-    } else if (message.includes("what was the first plane to use fly by wire")) {
-      reply = "The f-16 fighting falcon was the first plane to use fly by wire";
-    } else {
-      reply = "I do not understand.";
-    }
-      response.textContent = reply;
-    });
+     sendBtn.addEventListener("click", function() {
+            const message = userInput.value.trim().toLowerCase();
+            userInput.value = "";
+            let reply;
+            if (message.includes("what was the biggest plane")) {
+                reply = "the biggest plane was the an-225.";
+            } else if (message.includes("what was the first plane to use fly by wire")) {
+                reply = "The f-16 was the first plane to use fly by wire.";
+            } else {
+                reply = "Sorry, I don't understand.";
+            }
+            response.textContent = reply;
+        });
     </script>
   </body>
 </html>
