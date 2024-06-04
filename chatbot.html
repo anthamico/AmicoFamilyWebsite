@@ -15,5 +15,12 @@
 
     sendBtn.addEventListener("click", function() {
     const message = userInput.value.trim().toLowercase();
+    userInput.value"";
+    let reply;
+    if (message.includes("what is the biggest plane")) {
+    reply = "The an-225 is the biggest plane ever made.";
+    }
+    response.textContent = reply;
+    });
   </body>
 </html>
