@@ -1,6 +1,6 @@
 body {
-background-image: linear-gradient(darkcyan, cyan); 
-}
+  background-image: url("a737.jpg");  background-repeat: no-repeat;  background-position: center;  background-size: cover;  margin: 0;  }
+
 .p1 {
 font-family: "brush script mt", "lucidia handwriting", cursive;
 }
